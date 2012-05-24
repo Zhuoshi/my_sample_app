@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 42809b47933d3c0b7252823988e51b2a94750781 Zhuoshi Wei <zhuoshiwei@gmail.com> 1337223325 -0400	commit (initial): Initial commit
+42809b47933d3c0b7252823988e51b2a94750781 7e581e45337281b605a0d60b1af4e72f311430de Zhuoshi Wei <zhuoshiwei@gmail.com> 1337223518 -0400	commit: Improve the README
+7e581e45337281b605a0d60b1af4e72f311430de 7e581e45337281b605a0d60b1af4e72f311430de Zhuoshi Wei <zhuoshiwei@gmail.com> 1337227747 -0400	checkout: moving from master to static-pages
+7e581e45337281b605a0d60b1af4e72f311430de 8dbf915602dda989c79be205623a1d5715ada3cd Zhuoshi Wei <zhuoshiwei@gmail.com> 1337228608 -0400	commit: Add a StaticPages controller
+8dbf915602dda989c79be205623a1d5715ada3cd ffa7e9d2590eab7d85101d67bda0d0ab288f5515 Zhuoshi Wei <zhuoshiwei@gmail.com> 1337574754 -0400	commit: Finish static pages
+ffa7e9d2590eab7d85101d67bda0d0ab288f5515 7e581e45337281b605a0d60b1af4e72f311430de Zhuoshi Wei <zhuoshiwei@gmail.com> 1337574776 -0400	checkout: moving from static-pages to master
+7e581e45337281b605a0d60b1af4e72f311430de ffa7e9d2590eab7d85101d67bda0d0ab288f5515 Zhuoshi Wei <zhuoshiwei@gmail.com> 1337574787 -0400	merge static-pages: Fast-forward

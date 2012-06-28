@@ -62,4 +62,6 @@ describe "Static pages" do
                     text: "Ruby on Rails Tutorial Sample App | Contact")
     end
   end
+  
+
 end

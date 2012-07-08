@@ -20,5 +20,6 @@ namespace :db do
                    password: password,
                    password_confirmation: password)
     end
+
   end
 end

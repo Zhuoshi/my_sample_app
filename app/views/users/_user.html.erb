@@ -1,6 +1,8 @@
 <li>
   <%= link_to user.name, user %>
-  last update: (<%= user.updated_at.in_time_zone("Eastern Time (US & Canada)") %>)
+  <% if user.lastlogin? %>
+  last update: <%= user.lastlogin.in_time_zone("Eastern Time (US & Canada)").strftime('%m/%d/%Y %I:%M %p') %>
+  <% end %>
   <% if user.microposts.any? %>
       Microposts (<%= user.microposts.count %>)
   <% end %>

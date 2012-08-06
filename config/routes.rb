@@ -9,7 +9,10 @@ SampleApp::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
+  resources :tasks, only: [:create, :edit, :destroy, :update, :index]
   #get "static_pages/home"
+
+  #match '/tasks', :to => "tasks#index", :via => "get"
 
   root to: 'static_pages#home'
   match '/signup',  to: 'users#new'
@@ -17,7 +20,9 @@ SampleApp::Application.routes.draw do
   match '/signout', to: 'sessions#destroy', via: :delete
   match '/help',    to: 'static_pages#help'
   match '/about',   to: 'static_pages#about'
-  match '/contact', to: 'static_pages#contact' 
+  match '/contact', to: 'static_pages#contact'
+
+  match '/tasks', :to => "tasks#index", :via => "get"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
